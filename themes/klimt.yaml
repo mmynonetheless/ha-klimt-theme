@@ -1,0 +1,190 @@
+# Gustav Klimt Inspired Theme for Home Assistant
+# Version 1.0.0
+# Inspired by Klimt's Golden Period, Byzantine mosaics, and Art Nouveau aesthetics
+# Repository: https://github.com/mmynonetheless/ha-klimt-theme
+
+Klimt:
+  # ============================================================
+  # PRIMARY COLORS - Inspired by Klimt's palette
+  # ============================================================
+  
+  # Gold - The signature element of Klimt's Golden Period 
+  primary-color: "#d4af37"                          # Rich gold for primary accents
+  accent-color: "#b8860b"                            # Dark gold for depth
+  google-blue: "#d4af37"                             # Gold for links
+  
+  # Backgrounds - Warm, textured tones like aged canvas/wood 
+  primary-background-color: "#2c1e0e"                # Deep ochre-brown
+  secondary-background-color: "#3d2c1a"              # Warmer brown with gold undertones
+  primary-color-faded: "#d4af3740"                   # Gold with transparency for subtle effects
+  
+  # Text Colors - Inspired by Klimt's contrast between gold and figures 
+  primary-text-color: "#f5e6d3"                      # Warm off-white like aged paper
+  secondary-text-color: "#c0b09c"                    # Muted gold-beige
+  text-primary-color: "#f5e6d3"                      # Primary text
+  
+  # ============================================================
+  # CARD STYLES - Inspired by Klimt's mosaic-like compositions 
+  # ============================================================
+  
+  # Card backgrounds with subtle Byzantine-inspired pattern
+  card-background-color: "#342113"                    # Deep warm brown base
+  card-background-image: >-
+    repeating-linear-gradient(
+      45deg,
+      rgba(212, 175, 55, 0.03) 0px,
+      rgba(212, 175, 55, 0.03) 2px,
+      transparent 2px,
+      transparent 8px
+    )  # Subtle gold diagonal pattern like mosaic tesserae
+  
+  # Card borders - Inspired by Klimt's geometric patterns 
+  ha-card-border-width: "2px"
+  ha-card-border-color: "#d4af37"                    # Gold borders like the frames in Stoclet Frieze
+  ha-card-box-shadow: "0 8px 16px rgba(0,0,0,0.3), 0 0 0 1px #d4af3733 inset"
+  border-color: "#b8860b"                             # Secondary border color
+  
+  # ============================================================
+  # SIDEBAR - Rich and ornate like Klimt's backgrounds 
+  # ============================================================
+  
+  sidebar-background-color: "#1a130b"                 # Deep walnut brown
+  sidebar-text-color: "#e8d5b5"                       # Warm parchment
+  sidebar-selected-background-color: "#d4af3733"      # Gold tint for selected items
+  sidebar-selected-text-color: "#d4af37"              # Gold for selected items
+  sidebar-icon-color: "#b8860b"                       # Dark gold icons
+  
+  # ============================================================
+  # HEADER - Inspired by Klimt's use of gold leaf 
+  # ============================================================
+  
+  app-header-background-color: "#1a130b"              # Dark base
+  app-header-text-color: "#d4af37"                    # Gold text
+  header-height: "56px"
+  
+  # ============================================================
+  # BUTTONS - Like decorative elements in Klimt's paintings 
+  # ============================================================
+  
+  # Primary buttons - Gold with depth
+  primary-color: "#d4af37"                            # Base gold
+  dark-primary-color: "#b8860b"                       # Darker gold for hover
+  
+  # Button styling
+  paper-button-ink-opacity: "0.2"
+  paper-toggle-button-checked-button-color: "#d4af37"
+  paper-toggle-button-checked-bar-color: "#d4af3740"
+  paper-toggle-button-unchecked-button-color: "#5d4a32"
+  paper-toggle-button-unchecked-bar-color: "#5d4a3240"
+  
+  # Sliders - Inspired by organic forms 
+  paper-slider-active-color: "#d4af37"
+  paper-slider-secondary-color: "#b8860b"
+  paper-slider-knob-color: "#d4af37"
+  paper-slider-pin-color: "#d4af37"
+  
+  # ============================================================
+  # INPUTS & FORMS - Warm and inviting 
+  # ============================================================
+  
+  input-label-ink-color: "#e8d5b5"                    # Warm beige
+  input-ink-color: "#d4af37"                          # Gold for focus
+  input-error-color: "#9b5e3c"                        # Terra cotta for errors (like Klimt's earth tones)
+  input-selection-color: "#d4af3740"                  # Gold selection highlight
+  
+  # ============================================================
+  # SWITCHES & TOGGLES - Inspired by geometric patterns 
+  # ============================================================
+  
+  switch-checked-color: "#d4af37"                     # Gold when active
+  switch-unchecked-color: "#5d4a32"                   # Earthy brown when inactive
+  switch-unchecked-button-color: "#3d2c1a"
+  switch-unchecked-track-color: "#5d4a3240"
+  
+  # ============================================================
+  # MARKDOWN & TEXT - Like the flowing lines in Klimt's drawings 
+  # ============================================================
+  
+  markdown-code-background-color: "#1a130b"           # Dark background for code
+  markdown-table-background-color: "#342113"
+  markdown-table-header-background-color: "#1a130b"
+  markdown-table-border-color: "#b8860b"
+  
+  # ============================================================
+  # DIVIDERS - Art Nouveau inspired flowing lines 
+  # ============================================================
+  
+  divider-color: "#b8860b"                            # Gold-brown dividers
+  
+  # ============================================================
+  # CHART COLORS - Klimt's jewel tones 
+  # ============================================================
+  
+  # Deep greens like in his landscapes
+  graph-color-1: "#2e5c4b"                            # Forest green
+  graph-color-2: "#9e5e3b"                            # Warm terra cotta
+  graph-color-3: "#b8860b"                            # Gold
+  graph-color-4: "#4a6b5d"                            # Sage green
+  graph-color-5: "#c17a4b"                            # Burnt orange
+  
+  # ============================================================
+  # STATE COLORS - Inspired by Klimt's symbolism 
+  # ============================================================
+  
+  # On/Active states - Gold like the divine in Klimt's work
+  state-icon-color: "#b8860b"                         # Default state
+  state-icon-active-color: "#d4af37"                  # Active state (gold)
+  
+  # Warning/Error - Terra cotta and deep reds
+  error-color: "#9b5e3c"                              # Warm terracotta
+  warning-color: "#c17a4b"                            # Burnt orange
+  success-color: "#2e5c4b"                            # Forest green
+  info-color: "#b8860b"                               # Gold
+  
+  # ============================================================
+  # LIGHT STATES - For entities 
+  # ============================================================
+  
+  # Light colors - Warm and golden like Klimt's palette
+  light-color-temperature: "2800K"                    # Warm light
+  
+  # Entity states
+  paper-item-selected_-background-color: "#d4af3733"
+  paper-item-icon-color: "#b8860b"
+  paper-item-icon-active-color: "#d4af37"
+  paper-item-icon_-color: "#b8860b"
+  
+  # ============================================================
+  # TABLE STYLES - Byzantine mosaic inspiration 
+  # ============================================================
+  
+  table-row-alternate-background-color: "#2a1e12"     # Alternating warm rows
+  table-row-background-color: "#342113"               # Base row color
+  table-border-color: "#b8860b"                       # Gold borders
+  
+  # ============================================================
+  # LABELS & BADGES - Like decorative elements 
+  # ============================================================
+  
+  label-badge-background-color: "#342113"
+  label-badge-text-color: "#f5e6d3"
+  label-badge-red: "#d4af37"                          # Gold instead of red
+  label-badge-green: "#2e5c4b"                        # Forest green
+  label-badge-blue: "#b8860b"                         # Gold-blue
+  label-badge-yellow: "#d4af37"                       # Gold
+  label-badge-grey: "#5d4a32"                         # Muted brown
+  
+  # ============================================================
+  # CARD MODIFICATIONS - Klimt's square format inspiration 
+  # ============================================================
+  
+  # Make cards feel like Klimt's square canvases
+  ha-card-border-radius: "16px 4px 16px 4px"          # Asymmetric like Art Nouveau
+  ha-card-padding: "16px"
+  
+  # Weather card - inspired by Klimt's landscapes 
+  weather-card-background-color: "#342113"
+  
+  # Media player - like the patterns in "The Kiss" 
+  media-player-border-radius: "16px"
+  media-player-progress-color: "#d4af37"
