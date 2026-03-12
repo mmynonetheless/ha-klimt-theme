@@ -1,0 +1,7 @@
+{
+  "name": "Klimt Theme",
+  "render_readme": true,
+  "homeassistant": "2023.8.0",
+  "persistent_directory": "themes",
+  "country": ["AT", "US", "GB", "DE"]
+}
